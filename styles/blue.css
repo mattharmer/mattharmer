@@ -1,0 +1,89 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+p {
+  font-size: 0.9em;
+  line-height: 1.6em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 0.8em 1.2em;
+}
+
+.whiteContainer {
+  color: #0E5077;
+  background: #ffffff;
+}
+
+.blueContainer {
+  color: #ffffff;
+  background: #0E5077;
+}
+
+.logoText {
+ font-size: 48px;
+ font-weight: 700;
+ color: #0E5077;
+ margin: 0;
+ padding-left: 1em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hideDesktop {}
+.showDesktop {}
+.hideMobile {}
+.exitButton {}
+
+.socialFacebook {
+  height: 36px;
+  width: 36px;
+  background: url("../img/Facebook-g.svg") no-repeat;
+  display: inline-block;
+  }
+
+.socialGithub {
+  height: 36px;
+  width: 36px;
+  background: url("../img/Github-g.svg") no-repeat;
+  display: inline-block;
+  }
+
+.socialTwitter {
+    height: 36px;
+    width: 36px;
+    background: url("../img/Twitter-g.svg") no-repeat;
+    display: inline-block;
+}
+
+.socialLinkedin {
+  height: 36px;
+  width: 36px;
+  background: url("../img/Linkedin-g.svg") no-repeat;
+  display: inline-block;
+}
+
+.socialFacebook:hover {
+  background: url("../img/Facebook.svg") no-repeat;
+}
+.socialGithub:hover {
+  background: url("../img/Github.svg") no-repeat;
+}
+.socialTwitter:hover {
+  background: url("../img/Twitter.svg") no-repeat;
+}
+.socialLinkedin:hover {
+  background: url("../img/Linkedin.svg") no-repeat;
+}
