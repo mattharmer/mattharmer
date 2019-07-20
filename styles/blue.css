@@ -1,3 +1,8 @@
+html, body{
+  width:100%;
+  overflow-x:hidden;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
@@ -14,27 +19,10 @@ ul {
   padding: 0;
 }
 
-.container {
-  text-align: center;
-  padding: 0.8em 1.2em;
-}
-
-.whiteContainer {
+h1 {
   color: #0E5077;
-  background: #ffffff;
-}
-
-.blueContainer {
-  color: #ffffff;
-  background: #0E5077;
-}
-
-.logoText {
- font-size: 48px;
- font-weight: 700;
- color: #0E5077;
- margin: 0;
- padding-left: 1em;
+  font-size: 0.9em;
+  line-height: 1.4em;
 }
 
 header {
@@ -42,24 +30,79 @@ header {
   justify-content: space-between;
 }
 
+.container {
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.navContainer {
+}
+
+.introContainer {
+  padding: 15% 5% 15% 5%;
+}
+
+.introContainer li {
+  display: inline;
+}
+
+.whiteContainer {
+  padding: 15% 5% 15% 5%;
+  color: #0E5077;
+  background: #ffffff;
+}
+
+.blueContainer {
+  padding: 15% 5% 15% 5%;
+  color: #ffffff;
+  background: #0E5077;
+  transform: skewY(3deg);
+}
+
+.about {
+  transform: skewY(-3deg);
+}
+
+.blueContainer h5 {
+  transform: skewY(-3deg);
+}
+
+.logoText {
+ font-size: 48px;
+ font-weight: 700;
+ color: #0E5077;
+ margin-top: 10px;
+ margin-left: 15px;
+}
+
+.exitButton {}
 .hideDesktop {}
 .showDesktop {}
-.hideMobile {}
-.exitButton {}
+
+.hideMobile {
+  display: none;
+}
+
+.menu {
+  width: 64px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
 
 .socialFacebook {
   height: 36px;
   width: 36px;
   background: url("../img/Facebook-g.svg") no-repeat;
   display: inline-block;
-  }
+}
 
 .socialGithub {
   height: 36px;
   width: 36px;
   background: url("../img/Github-g.svg") no-repeat;
   display: inline-block;
-  }
+}
 
 .socialTwitter {
     height: 36px;
