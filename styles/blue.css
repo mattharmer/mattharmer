@@ -1,6 +1,5 @@
 html, body{
   width:100%;
-  overflow-x:hidden;
 }
 
 body {
@@ -34,9 +33,6 @@ header {
   padding: 0;
   width: 100%;
   text-align: center;
-}
-
-.navContainer {
 }
 
 .introContainer {
