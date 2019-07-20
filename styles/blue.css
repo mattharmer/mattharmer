@@ -8,7 +8,7 @@ body {
 }
 
 p {
-  font-size: 0.9em;
+  font-size: 0.8em;
   line-height: 1.6em;
 }
 
@@ -24,9 +24,29 @@ h1 {
   line-height: 1.4em;
 }
 
+h2 {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+h3 {
+  color: #52AADE;
+  font-size: 1em;
+}
+
+h4 {
+  color: #52AADE;
+  font-size: 0.6em;
+}
+
 header {
   display: flex;
   justify-content: space-between;
+}
+
+.projects h2 {
+  color: #0E5077;
+  font-size: 1.1em;
 }
 
 .container {
@@ -36,11 +56,17 @@ header {
 }
 
 .introContainer {
-  padding: 15% 5% 15% 5%;
+  padding: 15% 25% 15% 25%;
 }
 
 .introContainer li {
   display: inline;
+}
+
+.introContainer img {
+  border-radius: 50%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .whiteContainer {
@@ -87,29 +113,29 @@ header {
 }
 
 .socialFacebook {
-  height: 36px;
-  width: 36px;
+  height: 76px;
+  width: 76px;
   background: url("../img/Facebook-g.svg") no-repeat;
   display: inline-block;
 }
 
 .socialGithub {
-  height: 36px;
-  width: 36px;
+  height: 76px;
+  width: 76px;
   background: url("../img/Github-g.svg") no-repeat;
   display: inline-block;
 }
 
 .socialTwitter {
-    height: 36px;
-    width: 36px;
+    height: 76px;
+    width: 76px;
     background: url("../img/Twitter-g.svg") no-repeat;
     display: inline-block;
 }
 
 .socialLinkedin {
-  height: 36px;
-  width: 36px;
+  height: 76px;
+  width: 76px;
   background: url("../img/Linkedin-g.svg") no-repeat;
   display: inline-block;
 }
