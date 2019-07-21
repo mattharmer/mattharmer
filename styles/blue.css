@@ -97,6 +97,7 @@ nav ul li:first-child {
 .container {
   padding: 0;
   width: 100%;
+  margin: auto;
   text-align: center;
 }
 
@@ -130,7 +131,7 @@ nav ul li:first-child {
 }
 
 .footerContainer {
-  padding: 15% 5% 15% 5%;
+  padding: 5% 5% 5% 5%;
   color: #ffffff;
   background: #0E5077;
 }
@@ -214,12 +215,20 @@ nav ul li:first-child {
   }
 
   .introContainer {
-      padding: 10% 5% 15% 5%;
+      padding: 3% 5% 5% 5%;
   }
 
   .introContainer h1 {
     font-size: 3em;
     margin: 0;
+  }
+
+  .blueContainer {
+    padding: 5% 15% 5% 15%;
+  }
+
+  .whiteContainer {
+    padding: 5% 15% 10% 15%;
   }
 
   .socialFacebook {
@@ -258,5 +267,68 @@ nav ul li:first-child {
   h4 {
     font-size: 1em;
     margin-bottom: 4em;
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .container {
+    width: 80%;
+  }
+
+  .showDesktop {
+    display: block;
+  }
+
+  .hideDesktop {
+    display: none;
+  }
+
+  nav ul {
+    position: inherit;
+    width: auto;
+    background: none;
+    display: flex;
+    padding-top: 0;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    color: #0E5077;
+    font-size: .8em;
+    margin-top: .6em;
+    background-color: #fff;
+  }
+
+  nav ul li a:hover {
+    color: #52AADE;
+    background-color: inherit;
+  }
+
+  .socialFacebook:hover {
+    animation: move .4s infinite alternate;
+  }
+
+  .socialGithub:hover {
+    animation: move .4s infinite alternate;
+  }
+
+  .socialLinkedin:hover {
+    animation: move .4s infinite alternate;
+  }
+
+  .socialTwitter:hover {
+    animation: move .4s infinite alternate;
+  }
+
+  @keyframes move {
+    0% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(3px);
+    }
   }
 }
