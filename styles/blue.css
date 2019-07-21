@@ -152,10 +152,6 @@ nav ul li:first-child {
  margin-left: 15px;
 }
 
-.exitButton {}
-.hideDesktop {}
-.showDesktop {}
-
 .hideMobile {
   display: none;
 }
