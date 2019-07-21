@@ -53,38 +53,6 @@ header {
   font-size: 1.1em;
 }
 
-nav ul {
-  position: fixed;
-  width: 60%;
-  top: 0;
-  right: 0;
-  text-align: left;
-  background: #E5E5E5;
-  height: 100%;
-  z-index: 7;
-  padding-top: 1em;
-}
-
-nav ul li a {
-  font-size: .8em;
-  font-weight: bold;
-  color: #454545;
-  text-decoration: none;
-  float: left;
-  display: block;
-  width: 100%;
-  padding: 1em 2em;
-  background-color: #CFCFCF;
-}
-
-nav ul li a:hover {
-  background-color: #A7A7A7;
-}
-
-nav ul li:first-child {
-  margin-bottom: 1em;
-}
-
 .exitButton {
   float: right;
   margin-right: 15px;
@@ -144,16 +112,13 @@ nav ul li:first-child {
   transform: skewY(-3deg);
 }
 
-.logoText {
+.logo-text {
  font-size: 1em;
  font-weight: 700;
  color: #0E5077;
  margin-top: 1em;
  margin-left: 15px;
-}
-
-.hideMobile {
-  display: none;
+ display: inline-block;
 }
 
 .menu {
@@ -203,6 +168,120 @@ nav ul li:first-child {
   background: url("../img/Linkedin.svg") no-repeat;
 }
 
+.main-nav {
+  height: 48px;
+  background-color: #FFF;
+  line-height: 48px;
+  padding: 0 16px;
+}
+
+.menu {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li > a {
+  text-decoration: none;
+  color: #404040;
+  font-weight: bold;
+  padding: 0 14px;
+  display: block;
+  height: 48px;
+}
+
+.menu li > a:hover {
+  color: #7cb228;
+  border-bottom: 4px solid #7cb228;
+}
+
+.menu li.close {
+  display: none;
+  font-size: 36px;
+  color: #646464;
+  cursor: pointer;
+}
+
+.mobile-btn {
+  display: none;
+  float: right;
+  cursor: pointer;
+}
+
+/*
+This media query hides the horizontal menu and makes the mobile menu button visible
+Play around with the max-width for a width that best fits your design
+*/
+@media (max-width: 650px) {
+  .menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    background-color: #FFF;
+    width: 300px;
+    height: 100%;
+    z-index: 3;
+    transform: translateX(300px);
+    transition: all 200ms ease-in-out;
+  }
+
+  .menu.open {
+    transform: translateX(0);
+  }
+
+  .menu li {
+    display: block;
+    padding: 0 14px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .menu li > a {
+    border: none;
+    border-left: 2px solid transparent;
+  }
+
+  .menu li > a:hover {
+    border: none;
+    border-left: 2px solid #7cb228;
+  }
+
+  .menu li.close {
+    display: block;
+    text-align: right;
+  }
+
+  .mobile-btn {
+    display: inline-block;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.4);
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 100ms linear;
+  }
+
+  .overlay.open {
+    z-index: 1;
+    opacity: 1;
+  }
+}
+
+
+/*
+This media query......................................................................
+*/
 @media only screen and (min-width: 650px) {
 
   .imageMatt {
@@ -265,42 +344,14 @@ nav ul li:first-child {
     margin-bottom: 4em;
 }
 
+
+/*
+This media query......................................................................
+*/
 @media only screen and (min-width: 1024px) {
 
   .container {
     width: 80%;
-  }
-
-  .showDesktop {
-    display: block;
-  }
-
-  .hideDesktop {
-    display: none;
-  }
-
-  nav ul {
-    position: inherit;
-    width: auto;
-    background: none;
-    display: flex;
-    padding-top: 0;
-  }
-
-  nav ul li {
-    float: left;
-  }
-
-  nav ul li a {
-    color: #0E5077;
-    font-size: .8em;
-    margin-top: .6em;
-    background-color: #fff;
-  }
-
-  nav ul li a:hover {
-    color: #52AADE;
-    background-color: inherit;
   }
 
   .socialFacebook:hover {
