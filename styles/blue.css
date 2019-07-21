@@ -9,7 +9,8 @@ body {
 
 p {
   font-size: 0.8em;
-  line-height: 1.6em;
+  line-height: 1.2em;
+  margin: 2em;
 }
 
 ul {
@@ -20,7 +21,7 @@ ul {
 
 h1 {
   color: #0E5077;
-  font-size: 0.9em;
+  font-size: 1.1em;
   line-height: 1.4em;
 }
 
@@ -32,11 +33,13 @@ h2 {
 h3 {
   color: #52AADE;
   font-size: 1em;
+  margin-bottom: 0;
 }
 
 h4 {
   color: #52AADE;
   font-size: 0.6em;
+  margin-top: 0;
 }
 
 header {
@@ -49,6 +52,39 @@ header {
   font-size: 1.1em;
 }
 
+nav ul {
+  position: fixed;
+  width: 60%;
+  top: 0;
+  right: 0;
+  text-align: left;
+  background: #E5E5E5;
+  height: 100%;
+  z-index: 7;
+  padding-top: 3em;
+}
+
+nav ul li a {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #E5E5E5;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  padding: 1em 2em;
+  background-color: #CFCFCF;
+}
+
+nav ul li a:hover {
+  background-color: #A7A7A7;
+
+}
+
+.exitButton {
+  width: 48px;
+  height: 48px;
+}
+
 .container {
   padding: 0;
   width: 100%;
@@ -56,7 +92,7 @@ header {
 }
 
 .introContainer {
-  padding: 15% 25% 15% 25%;
+  padding: 15% 20% 15% 20%;
 }
 
 .introContainer li {
@@ -82,12 +118,23 @@ header {
   transform: skewY(3deg);
 }
 
+.footerContainer {
+  padding: 15% 5% 15% 5%;
+  color: #ffffff;
+  background: #0E5077;
+  transform: skewY(-2deg);
+}
+
 .about {
   transform: skewY(-3deg);
 }
 
 .blueContainer h5 {
   transform: skewY(-3deg);
+}
+
+.footerContainer h5 {
+  transform: skewY(2deg);
 }
 
 .logoText {
