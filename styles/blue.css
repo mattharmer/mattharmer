@@ -1,5 +1,6 @@
 html, body{
   width:100%;
+  overflow-x: hidden; // Dev Tools proper display fix
 }
 
 body {
@@ -61,14 +62,15 @@ nav ul {
   background: #E5E5E5;
   height: 100%;
   z-index: 7;
-  padding-top: 3em;
+  padding-top: 1em;
 }
 
 nav ul li a {
-  font-size: 1.6em;
+  font-size: .8em;
   font-weight: bold;
-  color: #E5E5E5;
+  color: #454545;
   text-decoration: none;
+  float: left;
   display: block;
   width: 100%;
   padding: 1em 2em;
@@ -77,12 +79,19 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: #A7A7A7;
+}
 
+nav ul li:first-child {
+  margin-bottom: 1em;
 }
 
 .exitButton {
-  width: 48px;
-  height: 48px;
+  float: right;
+  margin-right: 15px;
+}
+
+.exitButton img {
+  width: 24px;
 }
 
 .container {
@@ -92,16 +101,17 @@ nav ul li a:hover {
 }
 
 .introContainer {
-  padding: 15% 20% 15% 20%;
+  padding: 10% 20% 15% 20%;
 }
 
 .introContainer li {
   display: inline;
 }
 
-.introContainer img {
-  border-radius: 50%;
-  margin-top: 10%;
+.imageMatt {
+  width: 50%;
+  border-radius: 20% 50%;
+  margin-top: 5%;
   margin-bottom: 10%;
 }
 
@@ -112,7 +122,8 @@ nav ul li a:hover {
 }
 
 .blueContainer {
-  padding: 15% 5% 15% 5%;
+  padding: 10% 5% 10% 5%;
+  border-radius: 0% 5%;
   color: #ffffff;
   background: #0E5077;
   transform: skewY(3deg);
@@ -122,7 +133,6 @@ nav ul li a:hover {
   padding: 15% 5% 15% 5%;
   color: #ffffff;
   background: #0E5077;
-  transform: skewY(-2deg);
 }
 
 .about {
@@ -133,15 +143,11 @@ nav ul li a:hover {
   transform: skewY(-3deg);
 }
 
-.footerContainer h5 {
-  transform: skewY(2deg);
-}
-
 .logoText {
- font-size: 48px;
+ font-size: 1em;
  font-weight: 700;
  color: #0E5077;
- margin-top: 10px;
+ margin-top: 1em;
  margin-left: 15px;
 }
 
@@ -154,35 +160,35 @@ nav ul li a:hover {
 }
 
 .menu {
-  width: 64px;
-  margin-top: 15px;
+  width: 24px;
+  margin-top: 1em;
   margin-right: 15px;
 }
 
 .socialFacebook {
-  height: 76px;
-  width: 76px;
+  height: 24px;
+  width: 24px;
   background: url("../img/Facebook-g.svg") no-repeat;
   display: inline-block;
 }
 
 .socialGithub {
-  height: 76px;
-  width: 76px;
+  height: 24px;
+  width: 24px;
   background: url("../img/Github-g.svg") no-repeat;
   display: inline-block;
 }
 
 .socialTwitter {
-    height: 76px;
-    width: 76px;
+    height: 24px;
+    width: 24px;
     background: url("../img/Twitter-g.svg") no-repeat;
     display: inline-block;
 }
 
 .socialLinkedin {
-  height: 76px;
-  width: 76px;
+  height: 24px;
+  width: 24px;
   background: url("../img/Linkedin-g.svg") no-repeat;
   display: inline-block;
 }
@@ -198,4 +204,59 @@ nav ul li a:hover {
 }
 .socialLinkedin:hover {
   background: url("../img/Linkedin.svg") no-repeat;
+}
+
+@media only screen and (min-width: 650px) {
+
+  .imageMatt {
+    width: 20%;
+    margin-bottom: 5%;
+  }
+
+  .introContainer {
+      padding: 10% 5% 15% 5%;
+  }
+
+  .introContainer h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+
+  .socialFacebook {
+    height: 36px;
+    width: 36px;
+  }
+
+  .socialGithub {
+    height: 36px;
+    width: 36px;
+  }
+
+  .socialTwitter {
+      height: 36px;
+      width: 36px;
+  }
+
+  .socialLinkedin {
+    height: 36px;
+    width: 36px;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  .projects h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.8em;
+    margin-top: 2em;
+  }
+
+  h4 {
+    font-size: 1em;
+    margin-bottom: 4em;
+  }
 }
