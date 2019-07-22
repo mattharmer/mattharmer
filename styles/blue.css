@@ -48,6 +48,31 @@ header {
   justify-content: space-between;
 }
 
+form {
+  padding: 4em;
+  display: inline-block;
+  background-color: #0E5077;
+  border-radius: 15% 35%;
+}
+
+label {
+  color: #fff;
+  font-size: .7em;
+  font-weight: bold;
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 100%;
+  text-align: left;
+}
+
+input {
+  float: right;
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
 .projects h2 {
   color: #0E5077;
   font-size: 1.1em;
@@ -82,7 +107,7 @@ header {
 }
 
 .whiteContainer {
-  padding: 15% 5% 15% 5%;
+  padding: 15% 5% 0% 5%;
   color: #0E5077;
   background: #ffffff;
 }
@@ -107,6 +132,19 @@ header {
 
 .blueContainer h5 {
   transform: skewY(-3deg);
+}
+
+.contactContainer {
+  padding: 10% 5% 10% 5%;
+  background: #fff;
+}
+
+.contactContainer h2 {
+  color: #0E5077;
+}
+
+.message-box {
+  height: 200px;
 }
 
 .logo-text {
