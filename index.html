@@ -64,14 +64,16 @@
       </div>
       <div class="contactContainer">
         <h2>Contact</h2>
+
+        <!--formspree.io handles server and post requests. I will use this till I build it proper like. -->
         <form action="https://formspree.io/harmer.matt@gmail.com" method="post">
           <label>
             Email:
-            <input type="email" name="name" required>
+            <input class="email-box" type="email" name="name" required>
           </label>
           <label>
             Message:
-            <input class="message-box" type="text" name="name" required>
+            <textarea class="message-box" rows="1" cols="10" type="text" name="name" required></textarea>
           </label>
           <input type="submit" value="Submit">
         </form>
