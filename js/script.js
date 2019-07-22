@@ -2,9 +2,9 @@
 let mobileBtn = document.querySelector('.mobile-btn');
 let menu = document.querySelector('.menu');
 let closeBtn = document.querySelector('.close');
-let overlay = document.querySelector('.overlay');
 let closeBtn2 = document.querySelector('.close2');
-
+let closeBtn3 = document.querySelector('.close3');
+let overlay = document.querySelector('.overlay');
 
 // When the user clicks on the hamburger icon the 'open' class is added to both the menu and overlay elements making them visible and triggering the animation
 mobileBtn.addEventListener('click', function(){
@@ -20,6 +20,12 @@ closeBtn.addEventListener('click', function(){
 
 // Same as above, but closes the overlay when projects selected.
 closeBtn2.addEventListener('click', function(){
+  menu.className = 'menu';
+  overlay.className = 'overlay';
+})
+
+// Closes the overlay when contact selected.
+closeBtn3.addEventListener('click', function(){
   menu.className = 'menu';
   overlay.className = 'overlay';
 })

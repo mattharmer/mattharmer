@@ -16,7 +16,7 @@
           <ul class="menu">
             <li class="close">&times;</li>
             <li class="close2"><a href="#projects">Projects</a></li>
-            <li><a href="">Contact</a></li>
+            <li class="close3"><a href="#contact">Contact</a></li>
           </ul>
           <span class="mobile-btn">☰</span>
           <div class="overlay"></div>
@@ -52,7 +52,7 @@
       </div>
       <div class="whiteContainer">
         <article class="projects">
-          <h2 id="projects" >Projects</h2>
+          <h2 id="projects">Projects</h2>
             <ul>
               <li>Coming soon...</li>
               <li>...I just built this site. Responsive one page, mobile first.</li>
@@ -62,8 +62,8 @@
             </ul>
         </article>
       </div>
-      <div class="contactContainer">
-        <h2>Contact</h2>
+      <div id="contact" class="contactContainer">
+        <h2 id="contact">Contact</h2>
 
         <!--formspree.io handles server and post requests. I will use this till I build it proper like. -->
         <form action="https://formspree.io/harmer.matt@gmail.com" method="post">
@@ -75,7 +75,9 @@
             Message:
             <textarea class="message-box" rows="1" cols="10" type="text" name="name" required></textarea>
           </label>
-          <input type="submit" value="Submit">
+          <div class="g-recaptcha" data-sitekey="6Le3x2QUAAAAAHZzR4st6d9ibZ-K3x4FTG3CA2xT"></div>
+          <br/>
+          <input type="submit" value="Send">
         </form>
       </div>
       <div class="footerContainer">

@@ -22,7 +22,7 @@ ul {
 
 h1 {
   color: #0E5077;
-  font-size: 1.2em;
+  font-size: 2.2em;
   line-height: 1.4em;
 }
 
@@ -63,9 +63,24 @@ label {
 }
 
 input, textarea {
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 10px;
   padding: 8px;
   border: none;
+}
+
+input[type=submit] {
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+input[type=submit]:hover {
+  background-color: #0E5077;
+  color: #fff;
+}
+
+input[type=submit]:active {
+  border: 1px solid #fff;
 }
 
 .projects h2 {
