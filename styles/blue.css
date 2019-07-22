@@ -51,8 +51,8 @@ header {
 form {
   padding: 4em;
   display: inline-block;
-  background-color: #0E5077;
-  border-radius: 15% 35%;
+  transform: skewY(-3deg);
+
 }
 
 label {
@@ -81,7 +81,6 @@ input {
 .projects li {
   font-size: 0.8em;
   line-height: 1.2em;
-  margin: 2em;=
 }
 
 .container {
@@ -107,7 +106,7 @@ input {
 }
 
 .whiteContainer {
-  padding: 15% 5% 0% 5%;
+  padding: 10% 20% 10% 20%;
   color: #0E5077;
   background: #ffffff;
 }
@@ -122,8 +121,6 @@ input {
 
 .footerContainer {
   padding: 5% 5% 5% 5%;
-  color: #ffffff;
-  background: #0E5077;
 }
 
 .about {
@@ -136,12 +133,16 @@ input {
 
 .contactContainer {
   padding: 10% 5% 10% 5%;
-  background: #fff;
+  border-radius: 0% 5%;
+  color: #fff;
+  background: #0E5077;
+  transform: skewY(3deg);
 }
 
 .contactContainer h2 {
-  color: #0E5077;
+transform: skewY(-3deg);
 }
+
 
 .message-box {
   height: 200px;
