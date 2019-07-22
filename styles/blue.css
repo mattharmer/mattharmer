@@ -55,7 +55,6 @@ form {
 label {
   color: #fff;
   font-size: .7em;
-  padding: 8px;
   font-weight: bold;
   display: block;
   clear: left;
@@ -64,8 +63,8 @@ label {
 
 input, textarea {
   font-family: 'Montserrat', sans-serif;
-  margin-bottom: 10px;
-  padding: 8px;
+  padding: 5px;
+  margin-bottom: 20px;
   border: none;
 }
 
@@ -151,7 +150,7 @@ input[type=submit]:active {
   height: 100px;
 }
 
-.email.box {
+.email-box {
   width: 100%;
 }
 
