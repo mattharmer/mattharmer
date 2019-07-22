@@ -53,6 +53,12 @@ header {
   font-size: 1.1em;
 }
 
+.projects li {
+  font-size: 0.8em;
+  line-height: 1.2em;
+  margin: 2em;=
+}
+
 .container {
   padding: 0;
   width: 100%;
@@ -197,12 +203,10 @@ display: inline-block;
   display: none;
   float: right;
   cursor: pointer;
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
 }
 
-/*
-This media query hides the horizontal menu and makes the mobile menu button visible
-Play around with the max-width for a width that best fits your design
-*/
+/* This media query hides the horizontal menu and makes the mobile menu button visible. */
 @media (max-width: 650px) {
   .menu {
     position: absolute;
@@ -225,7 +229,6 @@ Play around with the max-width for a width that best fits your design
   .menu li {
     display: block;
     padding: 0 14px;
-    border-bottom: 1px solid #e5e5e5;
   }
 
   .menu li > a {
@@ -261,10 +264,7 @@ Play around with the max-width for a width that best fits your design
   }
 }
 
-
-/*
-This media query......................................................................
-*/
+/* This media query changes the menu and styles for tablet landscape and desktop.  */
 @media only screen and (min-width: 650px) {
 
   .imageMatt {
@@ -353,10 +353,7 @@ This media query................................................................
   }
 }
 
-
-/*
-This media query......................................................................
-*/
+/* This media query keeps us looking good on really big screens. */
 @media only screen and (min-width: 1024px) {
 
   .container {
