@@ -82,6 +82,21 @@ input[type=submit]:active {
   border: 1px solid #fff;
 }
 
+.projects {
+  display: flex;
+}
+
+.view {
+  margin-left: 1em;
+  margin-right: 1em;
+  flex: 1;
+}
+
+.view img {
+  max-width 100%;
+  height: auto;
+}
+
 .projects h2 {
   color: #0E5077;
 }
@@ -253,6 +268,11 @@ input[type=submit]:active {
 
 /* This media query hides the horizontal menu and makes the mobile menu button visible. */
 @media (max-width: 650px) {
+
+  .projects {
+    flex-direction: column;
+  }
+
   .menu {
     position: absolute;
     top: 0;
