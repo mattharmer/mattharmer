@@ -11,7 +11,7 @@ body {
 p {
   font-size: 1em;
   line-height: 1.5em;
-  margin: 2em;
+  margin: 2em 0 2em 0;
 }
 
 ul {
@@ -86,13 +86,13 @@ input[type=submit]:active {
   display: flex;
 }
 
-.view {
+.project {
   margin-left: 1em;
   margin-right: 1em;
   flex: 1;
 }
 
-.view img {
+.project img {
   max-width 100%;
   height: auto;
 }
@@ -128,7 +128,7 @@ input[type=submit]:active {
 }
 
 .whiteContainer {
-  padding: 10% 20% 10% 20%;
+  padding: 10% 0 10%;
   color: #0E5077;
   background: #ffffff;
 }
@@ -267,7 +267,7 @@ input[type=submit]:active {
 }
 
 /* This media query hides the horizontal menu and makes the mobile menu button visible. */
-@media (max-width: 650px) {
+@media (max-width: 700px) {
 
   .projects {
     flex-direction: column;
@@ -330,7 +330,7 @@ input[type=submit]:active {
 }
 
 /* This media query changes the menu and styles for tablet landscape and desktop.  */
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 700px) {
 
   .imageMatt {
     width: 20%;
@@ -348,10 +348,6 @@ input[type=submit]:active {
 
   .blueContainer {
     padding: 5% 15% 5% 15%;
-  }
-
-  .whiteContainer {
-    padding: 5% 15% 10% 15%;
   }
 
   .socialFacebook {
