@@ -11,7 +11,7 @@ body {
 p {
   font-size: 1em;
   line-height: 1.5em;
-  margin: 2em 0 2em 0;
+  margin: 2em 0 .5em 0;
 }
 
 ul {
@@ -88,17 +88,17 @@ input[type=submit]:active {
 }
 
 .project {
-  margin: 3em;
+  margin: 0 3em 0 3em;
   flex: 1;
 }
 
 .project_mair {
   background:url(../img/johnmair_website.png) 0 0 no-repeat;
+  background-size: 100%;
+  height:200px;
   -moz-box-shadow: 0 0 5px #888;
   -webkit-box-shadow: 0 0 5px #888;
   box-shadow: 0 0 5px #888;  color: #fff;
-  background-size: 90%;
-  height:200px;
   -webkit-transition: background-position 8s ease-in-out;
   -moz-transition: background-position 8s ease-in-out;
   -ms-transition: background-position 8s ease-in-out;
@@ -108,12 +108,11 @@ input[type=submit]:active {
 
 .project_craze {
   background:url(../img/crazedance_website.png) 0 0 no-repeat;
-  -moz-box-shadow: 0 0 5px #888;
-  -webkit-box-shadow: 0 0 5px#888;
-  box-shadow: 0 0 5px #888;
-  color: #fff;
   background-size: 100%;
   height:200px;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px #888;
+  box-shadow: 0 0 5px #888;  color: #fff;
   -webkit-transition: background-position 8s ease-in-out;
   -moz-transition: background-position 8s ease-in-out;
   -ms-transition: background-position 8s ease-in-out;
@@ -123,11 +122,25 @@ input[type=submit]:active {
 
 .project_tatts {
   background:url(../img/tatts_website.png) 0 0 no-repeat;
-  -moz-box-shadow: 0 0 5px #888;
-  -webkit-box-shadow: 0 0 5px#888;
-  box-shadow: 0 0 5px #888;  color: #fff;
   background-size: 100%;
   height:200px;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px #888;
+  box-shadow: 0 0 5px #888;  color: #fff;
+  -webkit-transition: background-position 8s ease-in-out;
+  -moz-transition: background-position 8s ease-in-out;
+  -ms-transition: background-position 8s ease-in-out;
+  -o-transition: background-position 8s ease-in-out;
+  transition: background-position 8s ease-in-out;
+}
+
+.project_texas {
+  background:url(../img/texasangus_website.png) 0 0 no-repeat;
+  background-size: 100%;
+  height:200px;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px #888;
+  box-shadow: 0 0 5px #888;  color: #fff;
   -webkit-transition: background-position 8s ease-in-out;
   -moz-transition: background-position 8s ease-in-out;
   -ms-transition: background-position 8s ease-in-out;
@@ -144,6 +157,10 @@ input[type=submit]:active {
 }
 
 .project_tatts:hover {
+    background-position:0px 100%;
+}
+
+.project_texas:hover {
     background-position:0px 100%;
 }
 
@@ -212,7 +229,7 @@ input[type=submit]:active {
 .whiteContainer h3 {
   color: #0E5077;
   font-size: 1.2em;
-  padding: 1em;
+  padding: 4em 2em 1em 2em;;
 }
 
 .blueContainer a:hover {
