@@ -88,21 +88,22 @@ input[type=submit]:active {
 }
 
 .project {
-  margin: 1em;
+  margin: 3em;
+  flex: 1;
 }
 
 .project_mair {
   background:url(../img/johnmair_website.png) 0 0 no-repeat;
   -moz-box-shadow: 0 0 5px #888;
-  -webkit-box-shadow: 0 0 5px#888;
+  -webkit-box-shadow: 0 0 5px #888;
   box-shadow: 0 0 5px #888;  color: #fff;
-  background-size: 100%;
+  background-size: 90%;
   height:200px;
-    -webkit-transition: background-position 8s ease-in-out;
-    -moz-transition: background-position 8s ease-in-out;
-    -ms-transition: background-position 8s ease-in-out;
-    -o-transition: background-position 8s ease-in-out;
-    transition: background-position 8s ease-in-out;
+  -webkit-transition: background-position 8s ease-in-out;
+  -moz-transition: background-position 8s ease-in-out;
+  -ms-transition: background-position 8s ease-in-out;
+  -o-transition: background-position 8s ease-in-out;
+  transition: background-position 8s ease-in-out;
 }
 
 .project_craze {
@@ -113,11 +114,25 @@ input[type=submit]:active {
   color: #fff;
   background-size: 100%;
   height:200px;
-    -webkit-transition: background-position 8s ease-in-out;
-    -moz-transition: background-position 8s ease-in-out;
-    -ms-transition: background-position 8s ease-in-out;
-    -o-transition: background-position 8s ease-in-out;
-    transition: background-position 8s ease-in-out;
+  -webkit-transition: background-position 8s ease-in-out;
+  -moz-transition: background-position 8s ease-in-out;
+  -ms-transition: background-position 8s ease-in-out;
+  -o-transition: background-position 8s ease-in-out;
+  transition: background-position 8s ease-in-out;
+}
+
+.project_tatts {
+  background:url(../img/tatts_website.png) 0 0 no-repeat;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;  color: #fff;
+  background-size: 100%;
+  height:200px;
+  -webkit-transition: background-position 8s ease-in-out;
+  -moz-transition: background-position 8s ease-in-out;
+  -ms-transition: background-position 8s ease-in-out;
+  -o-transition: background-position 8s ease-in-out;
+  transition: background-position 8s ease-in-out;
 }
 
 .project_mair:hover {
@@ -125,6 +140,10 @@ input[type=submit]:active {
 }
 
 .project_craze:hover {
+    background-position:0px 100%;
+}
+
+.project_tatts:hover {
     background-position:0px 100%;
 }
 
