@@ -49,7 +49,7 @@ header {
 }
 
 form {
-  display: inline-block;
+  display: inline;
 }
 
 label {
@@ -59,6 +59,7 @@ label {
   display: block;
   clear: left;
   text-align: left;
+  width: 100%;
 }
 
 input, textarea {
@@ -87,14 +88,44 @@ input[type=submit]:active {
 }
 
 .project {
-  margin-left: 1em;
-  margin-right: 1em;
-  flex: 1;
+  margin: 1em;
 }
 
-.project img {
-  max-width 100%;
-  height: auto;
+.project_mair {
+  background:url(../img/johnmair_website.png) 0 0 no-repeat;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;  color: #fff;
+  background-size: 100%;
+  height:200px;
+    -webkit-transition: background-position 8s ease-in-out;
+    -moz-transition: background-position 8s ease-in-out;
+    -ms-transition: background-position 8s ease-in-out;
+    -o-transition: background-position 8s ease-in-out;
+    transition: background-position 8s ease-in-out;
+}
+
+.project_craze {
+  background:url(../img/crazedance_website.png) 0 0 no-repeat;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+  color: #fff;
+  background-size: 100%;
+  height:200px;
+    -webkit-transition: background-position 8s ease-in-out;
+    -moz-transition: background-position 8s ease-in-out;
+    -ms-transition: background-position 8s ease-in-out;
+    -o-transition: background-position 8s ease-in-out;
+    transition: background-position 8s ease-in-out;
+}
+
+.project_mair:hover {
+    background-position:0px 100%;
+}
+
+.project_craze:hover {
+    background-position:0px 100%;
 }
 
 .projects h2 {
@@ -128,9 +159,13 @@ input[type=submit]:active {
 }
 
 .whiteContainer {
-  padding: 10% 0 10%;
+  padding: 15% 0 15%;
   color: #0E5077;
   background: #ffffff;
+}
+
+.whiteContainer h2 {
+  color: #0E5077;
 }
 
 .blueContainer {
@@ -139,6 +174,30 @@ input[type=submit]:active {
   color: #ffffff;
   background: #0E5077;
   transform: skewY(3deg);
+}
+
+.blueContainer h5 {
+  transform: skewY(-3deg);
+}
+
+.blueContainer a {
+  text-decoration: none;
+  color: #52AADE;
+}
+
+.whiteContainer a {
+  text-decoration: none;
+  color: #52AADE;
+}
+
+.whiteContainer h3 {
+  color: #0E5077;
+  font-size: 1.2em;
+  padding: 1em;
+}
+
+.blueContainer a:hover {
+  text-decoration: underline;
 }
 
 .footerContainer {
@@ -150,14 +209,14 @@ input[type=submit]:active {
   transform: skewY(-3deg);
 }
 
-.blueContainer h5 {
-  transform: skewY(-3deg);
-}
-
 .contactContainer {
-  padding: 10% 5% 10% 5%;
+  padding: 10% 20% 10% 20%;
   color: #fff;
   background: #0E5077;
+}
+
+.g-recaptcha {
+  display: inline-block;
 }
 
 .message-box {
@@ -200,8 +259,8 @@ input[type=submit]:active {
 }
 
 .menu li > a:hover {
-  color: #52AADE;
-  border-bottom: 4px solid #52AADE;
+  color: #0E5077;
+  border-bottom: 4px solid #0E5077;
 }
 
 .menu li.close {
@@ -326,6 +385,10 @@ input[type=submit]:active {
   .overlay.open {
     z-index: 1;
     opacity: 1;
+  }
+
+  .contactContainer {
+    padding: 10% 10% 10% 10%;
   }
 }
 
