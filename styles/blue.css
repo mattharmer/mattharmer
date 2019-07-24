@@ -115,7 +115,7 @@ input[type=submit]:active {
   box-shadow: 0 0 5px #888;  color: #fff;
   -webkit-transition: background-position 8s ease-in-out;
   -moz-transition: background-position 8s ease-in-out;
-  -ms-transition: background-position 8s ease-in-out;
+  -ms-transition: background-position 4s ease-in-out;
   -o-transition: background-position 8s ease-in-out;
   transition: background-position 8s ease-in-out;
 }
@@ -148,6 +148,33 @@ input[type=submit]:active {
   transition: background-position 8s ease-in-out;
 }
 
+.project_liberty {
+  background:url(../img/website_liberty.png) 0 0 no-repeat;
+  background-size: 100%;
+  height:200px;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px #888;
+  box-shadow: 0 0 5px #888;  color: #fff;
+  -webkit-transition: background-position 8s ease-in-out;
+  -moz-transition: background-position 8s ease-in-out;
+  -ms-transition: background-position 8s ease-in-out;
+  -o-transition: background-position 8s ease-in-out;
+  transition: background-position 8s ease-in-out;
+}
+
+.project_senator {
+  background:url(../img/website_senator.png) 0 0 no-repeat;
+  background-size: 100%;
+  height:200px;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px #888;
+  box-shadow: 0 0 5px #888;  color: #fff;
+  -webkit-transition: background-position 8s ease-in-out;
+  -moz-transition: background-position 8s ease-in-out;
+  -ms-transition: background-position 8s ease-in-out;
+  -o-transition: background-position 8s ease-in-out;
+  transition: background-position 8s ease-in-out;
+}
 .project_mair:hover {
     background-position:0px 100%;
 }
@@ -161,6 +188,14 @@ input[type=submit]:active {
 }
 
 .project_texas:hover {
+    background-position:0px 100%;
+}
+
+.project_liberty:hover {
+    background-position:0px 100%;
+}
+
+.project_senator:hover {
     background-position:0px 100%;
 }
 
