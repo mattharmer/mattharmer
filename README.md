@@ -1,2 +1,4 @@
-# mattharmer
-Matt Harmer one page website portfolio.
+TODO
+PHP form submit - no formspree.io
+More projects
+resize project images
