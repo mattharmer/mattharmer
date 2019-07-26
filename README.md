@@ -2,5 +2,10 @@
 Matt Harmer one page website portfolio.
 
 TODO
-More projects.
-PHP POST contact form. No more formspree.io
+- PHP POST contact form. No more formspree.io
+- PROJECTS:
+Role/Difficulties/solutions/features/technologies
+Github/Xd(style sheet)/Link
+- ABOUT: Reduce information.
+- Favicon
+- WHMCS branding
