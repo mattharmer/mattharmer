@@ -23,7 +23,7 @@ ul {
 
 h1 {
   color: #0E5077;
-  font-size: 2.2em;
+  font-size: 2em;
   line-height: 1.4em;
 }
 
@@ -216,7 +216,7 @@ input[type=submit]:active {
 }
 
 .introContainer {
-  padding: 10% 20% 15% 20%;
+  padding: 10% 15% 15% 15%;
 }
 
 .introContainer li {
@@ -225,13 +225,13 @@ input[type=submit]:active {
 
 .imageMatt {
   width: 50%;
-  border-radius: 20% 50%;
+  border-radius: 50%;
   margin-top: 5%;
   margin-bottom: 10%;
 }
 
 .whiteContainer {
-  padding: 15% 0 15%;
+  padding: 15% 2% 15% 2%;
   color: #0E5077;
   background: #ffffff;
 }
@@ -242,7 +242,6 @@ input[type=submit]:active {
 
 .blueContainer {
   padding: 10% 5% 10% 5%;
-  border-radius: 0% 5%;
   color: #ffffff;
   background: #0E5077;
   transform: skewY(3deg);
