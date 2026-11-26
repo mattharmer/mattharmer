@@ -9,7 +9,7 @@ I'm looking for a day-hours role in IT support, service desk, hospitality tech, 
 - [liquiddegree.com](https://liquiddegree.com) — live Astro site with CI/CD
 - [cocktailharvest.com.au](https://cocktailharvest.com.au) — live Laravel site with Stripe
 - **Yum Eats** and the **Liquid Degree** app — Flutter/Firebase apps in Google Play internal testing
-- **Keptgrid** — habit tracker on iOS and Google Play
+- [keptgrid.app](https://keptgrid.app) — habit tracker on iOS and Google Play
 
 Product source stays in private repositories. I'm happy to walk through architecture and demos in an interview.
 
