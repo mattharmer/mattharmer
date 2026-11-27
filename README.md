@@ -14,10 +14,6 @@ I'm looking for a day-hours role in IT support, service desk, hospitality tech, 
 ## Case studies
 
 - [Lakeside Shift Assistant](https://github.com/mattharmer/lakeside-shift-assistant) — Claude Project and on-shift app ([live demo](https://mattharmer.github.io/lakeside-shift-assistant/))
-- [BrewCraft](https://github.com/mattharmer/brewcraft) — brew controller, KiCad PCB and ESP32 phone control
-- [MAFIL](https://github.com/mattharmer/mafil) — Raspberry Pi robot car (Movement Autonomous Feedback Image Learning)
-- [12 V 18650 pack](https://github.com/mattharmer/18650-car-battery) — pack built from salvaged laptop cells
-- [Garden automation](https://github.com/mattharmer/Garden_Automation) — soil sensors, a pump relay and a small server endpoint
 
 Product source for the live shops and apps stays in private repositories. I'm happy to walk through architecture and demos in an interview.
 
