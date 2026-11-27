@@ -14,6 +14,7 @@ I'm looking for a day-hours role in IT support, service desk, hospitality tech, 
 ## Case studies
 
 - [Lakeside Shift Assistant](https://github.com/mattharmer/lakeside-shift-assistant) — Claude Project and on-shift app ([live demo](https://mattharmer.github.io/lakeside-shift-assistant/))
+- [Hunter Ridge Site Assistant](https://github.com/mattharmer/hunter-ridge-site-assistant) — Claude Project and site app for a fictional builder ([live demo](https://mattharmer.github.io/hunter-ridge-site-assistant/))
 
 Product source for the live shops and apps stays in private repositories. I'm happy to walk through architecture and demos in an interview.
 
